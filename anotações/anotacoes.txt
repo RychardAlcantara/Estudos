@@ -1,0 +1,2 @@
+Todo arquivo de classe, é um arquivo com a extensão .cs 
+csproj é um arquivo de projeto do C# 
