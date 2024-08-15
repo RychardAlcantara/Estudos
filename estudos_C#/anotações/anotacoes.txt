@@ -1,2 +1,3 @@
 Todo arquivo de classe, é um arquivo com a extensão .cs 
 csproj é um arquivo de projeto do C# 
+dentro de pasta obj são arquivos de compilação então não é necessario mexer nessa pasta
