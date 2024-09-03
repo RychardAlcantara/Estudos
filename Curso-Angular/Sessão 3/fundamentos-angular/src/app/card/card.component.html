@@ -2,4 +2,36 @@
   <div class="card__plan card__item">Plano <b>{{ plano.tipo }}</b></div>
   <div class="card__price card__item">{{ getFullPrice() }}</div>
   <app-card-button></app-card-button>
+
+  <mat-slider min="1" max="5" step="0.5">
+    <input matSliderThumb value="1.5">
+  </mat-slider>
+
 </div>
+
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+  <!-- Coluna 1 -->
+  <ng-container matColumnDef="column1">
+    <th mat-header-cell *matHeaderCellDef> Coluna 1 </th>
+    <td mat-cell *matCellDef="let element"> {{element.column1}} </td>
+  </ng-container>
+
+  <!-- Coluna 2 -->
+  <ng-container matColumnDef="column2">
+    <th mat-header-cell *matHeaderCellDef> Coluna 2 </th>
+    <td mat-cell *matCellDef="let element"> {{element.column2}} </td>
+  </ng-container>
+
+  <!-- Coluna 3 -->
+  <ng-container matColumnDef="column3">
+    <th mat-header-cell *matHeaderCellDef> Coluna 3 </th>
+    <td mat-cell *matCellDef="let element"> {{element.column3}} </td>
+  </ng-container>
+
+  <!-- Header -->
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <!-- Rows -->
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
+
+

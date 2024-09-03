@@ -6,6 +6,14 @@ import { Component } from '@angular/core';
   styleUrl: './card.component.scss'
 })
 export class CardComponent {
+  displayedColumns: string[] = ['column1', 'column2', 'column3'];
+  dataSource = [
+    { column1: 'Data 1', column2: 'Data 2', column3: 'Data 3' },
+    { column1: 'Data 4', column2: 'Data 5', column3: 'Data 6' },
+    { column1: 'Data 4', column2: 'Data 5', column3: 'Data 6' },
+    { column1: 'Data 4', column2: 'Data 5', column3: 'Data 6' }
+  ];
+
   plano = {
     tipo: 'Simples',
     preco: 100

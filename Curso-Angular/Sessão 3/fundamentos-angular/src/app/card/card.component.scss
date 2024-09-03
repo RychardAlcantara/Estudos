@@ -20,3 +20,12 @@
         font-size: 40px;
     }
 }
+
+// // style mat-slider
+:host ::ng-deep .mdc-slider__track--active_fill {
+  border-color: yellow !important;
+}
+
+mat-grid-tile {
+  background: lightblue;
+}
