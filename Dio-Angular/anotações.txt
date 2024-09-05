@@ -1,0 +1,1 @@
+npx tsc src/index.ts para gerar do ts para o js
