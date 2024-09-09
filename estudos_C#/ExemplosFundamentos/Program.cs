@@ -63,14 +63,6 @@ foreach(string a in lista)
 
 
 
-
-
-
-
-
-
-
-
 //----------------------------------------------------------------
 //CONVERSÃO DE STRING PARA NUMBER E DE NUMBER PARA STRING 
 // int a = Convert.ToInt32("5"); 
