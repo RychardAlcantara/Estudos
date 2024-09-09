@@ -1,11 +1,11 @@
-import { Component, ViewEncapsulation } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-card',
   templateUrl: './card.component.html',
   styleUrl: './card.component.scss',
-  //encapsulation: ViewEncapsulation.None  serve para aplicar os estilos em todos os componentes. (Evitar de usar)
-  // encapsulation: ViewEncapsulation.ShadowDom serve para ele não receber nenhum estilo global.
+  //encapsulation: ViewEncapsulation.None  serve para aplicar os estilos em todos os componentes tornando ele global. (Evitar de usar)
+  //encapsulation: ViewEncapsulation.ShadowDom serve para ele não receber nenhum estilo global.
 })
 export class CardComponent {
   displayedColumns: string[] = ['column1', 'column2', 'column3'];

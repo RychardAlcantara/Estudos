@@ -22,7 +22,7 @@
 }
 
 // // style mat-slider
-:host ::ng-deep .mdc-slider__track--active_fill {
+mat-slider.mat-slider {
   border-color: yellow !important;
 }
 
