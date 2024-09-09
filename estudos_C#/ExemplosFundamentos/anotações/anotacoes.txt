@@ -1,0 +1,29 @@
+Estrutura das pastas
+
+Todo arquivo de classe, é um arquivo com a extensão .cs 
+csproj é um arquivo de projeto do C# 
+dentro de pasta obj são arquivos de compilação então não é necessario mexer nessa pasta
+----------------------------------------------------------------
+Classes
+
+Na estrutura de uma classe, vem primeiro os seus atributos e depois a suas ações.
+Podemos ter diversar copias da nossa classe, tanto que o nameSpace seja diferente
+----------------------------------------------------------------
+Namespace
+
+Podemos dar um nome que quiser, mas é sempre bom manter uma padronização
+Por exemplo: a minha classe está dentro de models, podemos deixar como Models.NomeDaClasee
+----------------------------------------------------------------
+Cases
+
+camelCase, PascalCase, snake_case, spinal-case
+Por padrão usamos o camelCase, PascalCase no C#.
+
+O nome de classe iniciamos com o PascalCase
+O nome de propriedades iniciamos com o PascalCase
+O nome de metodos iniciamos com o PascalCase
+Quando declaramos variaveis iniciamos com o camelCase
+----------------------------------------------------------------
+
+
+
