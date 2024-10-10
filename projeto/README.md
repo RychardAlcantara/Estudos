@@ -1,4 +1,4 @@
-```markdown
+
 # Meu Projeto Full Stack
 
 Este projeto é uma aplicação Full Stack que integra um front-end em React com um back-end em Node.js, utilizando PostgreSQL como banco de dados. O objetivo é gerenciar usuários, permitindo a realização de operações CRUD (Criar, Ler, Atualizar e Deletar).
@@ -19,9 +19,8 @@ Este projeto é uma aplicação Full Stack que integra um front-end em React com
 - Consultar um usuário específico pelo ID
 
 ## Estrutura do Projeto
+```markdown
 
-```
-.
 ├── backend              # Código do back-end
 │   ├── database.js      # Configuração do banco de dados
 │   ├── routes           # Rotas da API
