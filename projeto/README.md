@@ -91,7 +91,7 @@ Este projeto é uma aplicação Full Stack que integra um front-end em React com
 A documentação da API está disponível no Swagger. Acesse a seguinte URL para visualizar as rotas e testar a API:
 
 ```
-http://localhost:9000/docs
+http://localhost:9000/swagger
 ```
 
 ## Contribuições
